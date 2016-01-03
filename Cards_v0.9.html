@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<title>Cards_alpha</title>
+<!--Adobe Edge Runtime-->
+    <script type="text/javascript" charset="utf-8" src="edge_includes/edge.6.0.0.min.js"></script>
+    <style>
+        .edgeLoad-cards-float { visibility:hidden; }
+
+        .flow-wrapper {
+        height:100%!important;
+        }
+        .center-wrapper {
+        height:100%!important;
+        }
+        
+        .cards-float {
+            /*width:auto !important;*/
+            -moz-transform: scale(1) !important;
+            -ms-transform: scale(1) !important;
+            -o-transform: scale(1) !important;
+            -webkit-transform: scale(1) !important;
+            transform: scale(1) !important;
+            height:100%!important;
+            position:absolute!important;
+            margin-left: -640px !important; 
+            left:50%;
+            }
+
+        .Stage_Man_w_cards_id {
+        background-size:cover !important;
+        background-position:top center !important;
+        background-image:none!important;
+        }
+
+    </style>
+<script>
+   AdobeEdge.loadComposition('Cards_v0.85', 'cards-float', {
+    scaleToFit: "width",
+    centerStage: "none",
+    minW: "0px",
+    maxW: "1920px",
+    width: "1280px",
+    height: "681px"
+}, {"style":{"${symbolSelector}":{"isStage":"true","rect":["undefined","undefined","1280px","681px"],"fill":["rgba(255,255,255,1)"]}},"dom":{}}, {"style":{"${symbolSelector}":{"isStage":"true","rect":["undefined","undefined","1280px","681px"],"fill":["rgba(255,255,255,1)"]}},"dom":{}});
+</script>
+<!--Adobe Edge Runtime End-->
+
+</head>
+<body style="margin:0;padding:0;">
+	<div id="Stage" class="cards-float">
+	</div>
+</body>
+</html>
